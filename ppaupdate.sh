@@ -24,19 +24,20 @@ sudo update-rc.d php5-fpm disable
 sudo service php5.6-fpm stop
 
 
-sudo apt-get install -y php5.6-curl
-     \ php5.6-dev
-     \ php5.6-gd
-     \ php5.6-intl
-     \ php5.6-mcrypt
-     \ php-memcache 
-     \ php-memcached
-     \ php5.6-mysql
-     \ php5.6-xml
-     \ php5.6-mbstring
-     \ php5.6-bcmath
-     \ php5.6-ldap
-     \ php5.6-imagick
+sudo apt-get install -y \
+      php5.6-curl \
+      php5.6-dev \
+      php5.6-gd \
+      php5.6-intl \ 
+      php5.6-mcrypt \ 
+      php-memcache  \ 
+      php-memcached \ 
+      php5.6-mysql \ 
+      php5.6-xml \ 
+      php5.6-mbstring \ 
+      php5.6-bcmath \ 
+      php5.6-ldap \ 
+      php5.6-imagick \ 
 
 sudo apt-get --purge remove php5-common
 sudo add-apt-repository --remove ppa:ondrej/php5-5.6
