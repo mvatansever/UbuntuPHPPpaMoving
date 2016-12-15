@@ -37,7 +37,8 @@ php5.6-xml \
 php5.6-mbstring \
 php5.6-bcmath \
 php5.6-ldap \
-php5.6-imagick
+php5.6-imagick \
+php5.6-zip
 
 sudo apt-get --purge remove php5-common
 sudo add-apt-repository --remove ppa:ondrej/php5-5.6
